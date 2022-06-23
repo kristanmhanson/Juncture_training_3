@@ -14,6 +14,8 @@
 <param ve-entity eid="Q221092"> <!-- Mauritshuis -->
 <param ve-entity eid="Q36600"> <!-- The Hague -->
 <param ve-entity eid="Q60"> <!-- New York City -->
+<param ve-entity eid="Q36600"> <!-- New Guinea -->
+<param ve-entity eid="Q244"> <!-- Barbados -->
 
 # Sample visual essay
 
@@ -62,6 +64,19 @@ literary treatments. In 2006, the Dutch public selected it as the most beautiful
 
 The Frick Collection in New York City has four paintings by Vermeer. Unlike  _Girl with a Pearl Earring_, the Frick Vermeers are genre scenes. In addition to these paintings by Vermeer, the Frick Collection has works by Frans Hals, Rembrandt, and Meyndert Hobbema.
 <param ve-map center="Q60" zoom="8" prefer-geojson>
+
+## Map of Plant Mobility: Sugarcane
+
+Kew’s [Plants of the World Online](https://powo.science.kew.org/) is a great resource for determining the native and introduced ranges of a plant at the genus and species level. Run a search for a plant using its scientific name. A Plant of the World Online map can serve as the basis for creating a static map in [Map Chart](https://www.mapchart.net/world-subdivisions.html) or a dynamic one in Juncture. You can use existing geographic map layers (GeoJSON files) or create your own using [geojson.io.](https://geojson.io/#map=6/10.164/-3.988)
+<param ve-map center="Q36600" zoom="11" prefer-geojson>
+<param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Saint_Lucy%2C_Barbados_005.jpg/640px-Saint_Lucy%2C_Barbados_005.jpg" coords="13.30, -59.63” size="129, 170” circle="true">
+<img width="4381" alt="image" src="https://user-images.githubusercontent.com/67124996/175307752-053ed33e-5c13-4527-a461-5793bf8219e5.png">
+
+Custom GeoJSON files for certain countries and regions can be found on GitHub [glynnbird/countriesgeojson.](https://github.com/glynnbird/countriesgeojson) But, in some cases, you will need to create your own using geojson.io.
+<param ve-map center="Q244" zoom="5">
+<param ve-map-layer geojson active url="babados.json" title="Barbados.">
+<param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Saint_Lucy%2C_Barbados_005.jpg/640px-Saint_Lucy%2C_Barbados_005.jpg" coords="13.30, -59.63” size="129, 170” circle="true">
+<img width="1674" alt="image" src="https://user-images.githubusercontent.com/67124996/175307797-170ba752-3280-4527-8939-aab2ede966ed.png">
 
 ## Multiple viewers
 
