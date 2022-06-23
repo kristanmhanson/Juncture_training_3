@@ -79,6 +79,9 @@ Kew’s [Plants of the World Online](https://powo.science.kew.org/) is a great r
 <param ve-map center="Q40285" zoom="5" prefer-geojson>
 <param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Saint_Lucy%2C_Barbados_005.jpg/640px-Saint_Lucy%2C_Barbados_005.jpg" coords="13.30, -59.63” size="129, 170” circle="true">
 
+Custom GeoJSON files for certain countries and regions can be found on GitHub [glynnbird/countriesgeojson.](https://github.com/glynnbird/countriesgeojson) But, in some cases, you will need to create your own using [geojson.io.](https://geojson.io/#map=6/10.164/-3.988) The island nation of Barbados, to which sugarcane was introduced, is a good case in point.
+<param ve-map center="Q244" zoom="5">
+
 # References
 
 [^1]: [Wikipedia: Girl with a Pearl Earring](https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring)
