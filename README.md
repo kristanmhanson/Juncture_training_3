@@ -65,17 +65,9 @@ literary treatments. In 2006, the Dutch public selected it as the most beautiful
 The Frick Collection in New York City has four paintings by Vermeer. Unlike  _Girl with a Pearl Earring_, the Frick Vermeers are genre scenes. In addition to these paintings by Vermeer, the Frick Collection has works by Frans Hals, Rembrandt, and Meyndert Hobbema.
 <param ve-map center="Q60" zoom="8" prefer-geojson>
 
-## Multiple viewers
-
-Multiple viewers may be defined for a single paragraph of text. The first viewer defined is displayed as the default viewer.  
-Others are selectable using icons displayed in the top right margin of the paragraph.
-<param ve-image 
-       manifest="https://ids.si.edu/ids/manifest/ark:/65665/m366f8ac28cdf64aba99b33cb34f351b81">
-<param ve-map center="Q36600" zoom="11">
-
 ## Map of Plant Mobility: Sugarcane
 
-Kew’s [Plants of the World Online](https://powo.science.kew.org/) is a great resource for determining the native and introduced ranges of a plant such as sugarcane (_Saccharum officinarum_), which is native to New Guinea and introduced to Barbados. A Plant of the World Online map can serve as the basis for creating a static map in [Map Chart](https://www.mapchart.net/world-subdivisions.html) or a dynamic one in Juncture.
+Kew’s [Plants of the World Online](https://powo.science.kew.org/) is a great resource for determining the native and introduced ranges of a plant such as sugarcane (_Saccharum officinarum_), which was introduced to Barbados. A Plant of the World Online map can serve as the basis for creating a static map in [Map Chart](https://www.mapchart.net/world-subdivisions.html) or a dynamic one in Juncture.
 <param ve-map center="Q244" zoom="5">
 <param ve-map-marker url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Saint_Lucy%2C_Barbados_005.jpg/640px-Saint_Lucy%2C_Barbados_005.jpg" coords="13.30, -59.63” size="129, 170” circle="true">
 
